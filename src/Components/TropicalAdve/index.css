@@ -1,0 +1,78 @@
+.TropicalAdve {
+  background-color: rgb(255, 252, 252);
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding-top: 2rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgb(253, 253, 253);
+  padding: 1.4rem;
+  width: 70%;
+  margin-bottom: 3rem;
+  border-radius: 14px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.description {
+  font-size: 18px;
+}
+.tropical-adv-title {
+  font-size: 3rem;
+}
+.student {
+  font-weight: 500;
+}
+.tropy-vecation {
+  font-size: 22px;
+  font-weight: 500;
+}
+.tropical-left {
+  margin-top: 10rem;
+}
+.tropical-right {
+}
+.ul-list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+.bg-imge-round {
+  padding-left: 60%;
+}
+.explore-btn {
+  padding: 15px 24px;
+  background-color: rgb(221, 123, 58);
+  border-width: 0;
+  border-radius: 10px;
+  margin-top: 50px;
+  color: white;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .TropicalAdve {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+  .tropical-adv-title{
+    padding: 10px;
+  }
+  .card {
+    width: 80%;
+  }
+
+  .bg-imge-round {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+}

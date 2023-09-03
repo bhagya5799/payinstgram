@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  gap: 1.4rem;
+  background-color: rgb(255, 252, 252);
+}
+.footer-description{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.student-special-title {
+  text-align: center;
+}
+.footer-items{
+    display: flex;
+    gap: 1.5rem;
+
+}
+@media screen and (max-width:768px){
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-left-containerr{
+        display: flex;
+        /* flex-direction: column; */
+        gap: 6px;
+        padding-bottom: 12px;
+    }
+
+    
+}

@@ -1,0 +1,57 @@
+.Header {
+  height: 5rem;
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left-container{
+    display: flex;
+    padding-left: 3rem;
+    gap: 2rem;
+    font-size: 1rem;  
+}
+.link:active{
+    color: rgb(34, 33, 33);
+    font-weight: bold;
+}
+.link:visited{
+    color:rgb(26, 25, 25);
+    font-weight: bold;
+}
+.link{
+    text-decoration: none;
+    font-weight: 600;
+}
+.nav-right-container{
+    display: flex;
+    gap: 2rem;
+    padding-right: 3rem;
+    align-items: center;
+}
+
+.offer{
+    font-size: 1.2rem;
+    color: rgb(110, 103, 103);
+}
+.course-btn{
+    background-color: rgb(246, 141, 71);
+    padding: 1.1rem 2rem;
+    border-radius: 26px;
+    border-width: 0;
+    color: white;
+    font-size: 16px;
+}
+@media screen and (max-width:768px){
+   .Header{
+    display: flex;
+    flex-direction: column;
+   }
+   .course-btn{
+    padding: 0.6rem 1rem;
+   }
+   .Header{
+    padding: 15px;
+   }
+}
